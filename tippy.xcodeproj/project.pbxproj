@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC326A6619BEAE5A00A271E4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC326A6519BEAE5A00A271E4 /* SettingsViewController.swift */; };
 		FC8D889F19B6B94A0098254A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D889E19B6B94A0098254A /* AppDelegate.swift */; };
 		FC8D88A119B6B94A0098254A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8D88A019B6B94A0098254A /* ViewController.swift */; };
 		FC8D88A419B6B94A0098254A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8D88A219B6B94A0098254A /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC326A6519BEAE5A00A271E4 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		FC8D889919B6B94A0098254A /* tippy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tippy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8D889D19B6B94A0098254A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC8D889E19B6B94A0098254A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				FC8D889E19B6B94A0098254A /* AppDelegate.swift */,
 				FC8D88A019B6B94A0098254A /* ViewController.swift */,
 				FC8D88A219B6B94A0098254A /* Main.storyboard */,
+				FC326A6519BEAE5A00A271E4 /* SettingsViewController.swift */,
 				FC8D88A519B6B94A0098254A /* Images.xcassets */,
 				FC8D889C19B6B94A0098254A /* Supporting Files */,
 			);
@@ -210,6 +213,7 @@
 			files = (
 				FC8D88A119B6B94A0098254A /* ViewController.swift in Sources */,
 				FC8D889F19B6B94A0098254A /* AppDelegate.swift in Sources */,
+				FC326A6619BEAE5A00A271E4 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +401,7 @@
 				FC8D88B719B6B94A0098254A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC8D88B819B6B94A0098254A /* Build configuration list for PBXNativeTarget "tippyTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				FC8D88BA19B6B94A0098254A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
